@@ -6,13 +6,16 @@ function togggleNavbar()
     (navbar.style.display === 'none' || navbar.style.display === ' ') ? 'block' : 'none' ; 
     var navigationbutton = document.querySelector('.navigationbutton');
     navigationbutton.style.display='none' ;
-} 
-
-
-
-
-
-
+    if(navbar.style.display=== 'block')
+    {
+    document.querySelectorAll('.extralogo')[0].style.display='none'
+    }
+    else
+    {
+        document.querySelectorAll('.extralogo')[0].style.display="" ;
+        document.getElementById('cart').style.display="" ;
+        }
+}  
 
 const previous = document.querySelector('.previous') ;
 const next = document.querySelector('.next') ;
