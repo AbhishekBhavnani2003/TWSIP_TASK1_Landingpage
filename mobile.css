@@ -6,6 +6,30 @@
 @media screen and (max-width:500px) {
 
 
+    .extralogo
+    {
+    margin-left: 100px;
+    margin-bottom: -125px;
+    display: flex;
+    }
+
+    #elogo
+    {
+    margin-right: 90px;
+    margin-left: 60px;
+    }
+
+    #cart
+    {
+        margin-right: -300px;
+    }
+
+    #profile
+    {
+        margin-right: -300px;
+    margin-left: 300px;
+    }
+
     .card {
         /* margin: 30px;
         padding:  30px ; */
@@ -45,7 +69,7 @@
 
 
     .navbar {
-        min-width: 190%;
+        min-width: 170%;
         margin-top: 50px;
         flex: none;
         height: 500px;
@@ -84,6 +108,7 @@
     .navigationbutton .navbutton {
         margin-top: 200px ;
         opacity: 0.5;
+        display: none;
     }
 
     .mainsection .mainsectiontittle {
@@ -92,7 +117,7 @@
 
     .footer {
         margin-top: 800px;
-        min-width: 190%;
+        min-width: 180%;
         height: 2000px;
 
     }
