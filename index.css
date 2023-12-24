@@ -1,5 +1,14 @@
 /* navbar  */
 
+
+.extralogo
+{
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    display: none;
+}
+
 .navbar {
     background-color: rgb(186, 179, 167);
     color: black;
@@ -394,4 +403,5 @@ button {
 .payment img {
     margin-top: 10px;
 }
+
 
