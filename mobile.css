@@ -14,7 +14,7 @@
         padding: 20px;
         width: 100%;
         height: 700px;
-        min-width: 150%;
+        min-width: 170% ;
         text-align: center;
     }
 
@@ -45,7 +45,7 @@
 
 
     .navbar {
-        min-width: 150%;
+        min-width: 170%;
         margin-top: 50px;
         flex: none;
         height: 500px;
@@ -82,7 +82,7 @@
     }
 
     .navigationbutton .navbutton {
-        margin-top: 350px;
+        margin-top: 200px ;
         opacity: 0.5;
     }
 
@@ -91,9 +91,9 @@
     }
 
     .footer {
-        margin-top: 3000px;
-        min-width: 150%;
-        height: 1800px;
+        margin-top: 800px;
+        min-width: 170%;
+        height: 2000px;
 
     }
 
@@ -115,8 +115,8 @@
 
     .reviews {
         margin-top: 100px;
-        min-width: 100%;
-        margin-left: 80px;
+    min-width: 120%;
+    margin-left: 120px;
     }
 
     #profileimage {
@@ -124,11 +124,11 @@
     }
 
     .rating {
-        margin-left: 170px;
+        margin-left: 180px;
     }
 
     #v3 {
-        margin-top: 1000px;
+        margin-top: 100px ;
         float: none;
     }
 
@@ -139,21 +139,27 @@
 
     #pv1 {
         min-width: 150%;
+        margin-left: 40px;
         text-align: center;
         float: none;
     }
 
     .sliderphotos img {
-        min-width: 150%;
+        min-width: 165%;
     }
 
 
     .navigationbutton .next {
-        margin-right: -200px;
+        margin-right: -270px;
     }
 
     .slider {
         margin-top: 200px;
+    }
+
+    .end h4 
+    {
+        margin-top: 230px;
     }
 
 
